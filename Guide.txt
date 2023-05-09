@@ -1,0 +1,12 @@
+- tạo nhánh: git branch <tên nhánh>
+vd: git branch nhanh_cua_Tuan
+- kiểm tra các nhánh đang có: git branch
+- chuyển sang làm việc tại nhánh: git checkout <tên nhánh>
+vd: git checkout nhanh_cua_Tuan
+- đồng bộ trên github và trên máy: git pull
+- đăng từ máy cá nhân lên:
++ chọn tất cả các tệp: git add .
++ ghi lại ghi chú: git commit -m"<nội dung>"
+vd: git commit -m"add a .txt file"
++ đẩy lên: git push
+- quay về nhánh chính làm việc: git checkout main
